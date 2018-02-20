@@ -24,9 +24,10 @@ if(command === "#kick") {
   await member.kick(reason)
   .catch(error => message.reply('Sorry ${message.author} I couldn't kick because of : ${error}));
    message.reply(${member.user.tag} has been kicked by ${message.author.tag} because: ${reason}');
+                 
   };
                  
-if(command === "ban") {
+if(command === "#ban") {
   if(!message.member.roles.some(r=>["Administrator"].includes(r.name)) )
     return message.reply("Sorry, you don't have permissions to use this!");
   
@@ -45,7 +46,7 @@ if(command === "ban") {
     message.reply(`${member.user.tag} has been banned by ${message.author.tag} because: ${reason}`);
   }
 
- if(command === "purge") {
+ if(command === "#purge") {
     const deleteCount = parseInt(args[0], 10);
     
     if(!deleteCount || deleteCount < 2 || deleteCount > 100)
