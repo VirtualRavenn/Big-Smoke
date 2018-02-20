@@ -23,7 +23,7 @@ if(command === "#kick") {
 
   await member.kick(reason)
   .catch(error => message.reply('Sorry ${message.author} I couldn't kick because of : ${error}));
-   message.reply(${member.user.tag} has been kicked by ${message.author.tag} because: ${reason}');              
+   message.reply(${member.user.tag} has been kicked by ${message.author.tag} because: ${reason}');
 });
             
 client.login(process.env.BOT_TOKEN);
