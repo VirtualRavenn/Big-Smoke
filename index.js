@@ -10,3 +10,18 @@ client.on("message", message => {
 });
                  
 client.login(process.env.BOT_TOKEN);
+
+ewrfvcqwgefbhesbhja4eghdr4eff
+
+efef
+fef
+e
+efe
+f
+e
+f
+e
+f
+e
+f
+e
