@@ -6,7 +6,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.author.id === "415704844221808640") message.reply("**Fool** you aren't suppose to be in here.");
+  if (message.author.id === "416405151050366976") message.reply("**Fool** you aren't suppose to be in here.");
 });
 
 client.on('message', msg => {
