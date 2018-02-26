@@ -14,7 +14,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.author.id === "417500499424706560") message.reply("Oh shit, the brakes is out!");
+  if (message.author.id === "417500499424706560") message.reply("**Oh shit**, the brakes is out!");
 });
 
 client.on('message', msg => {
