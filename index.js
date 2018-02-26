@@ -6,11 +6,15 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.author.id === "416405151050366976") message.reply("**Fool** you aren't suppose to be in here.");
+  if (message.author.id === "416405151050366976") message.reply("Awww, **motherfucker**, my car!");
 });
 
 client.on("message", message => {
-  if (message.author.id === "416418286184431636") message.reply("**Fool** you aren't suppose to be in here.");
+  if (message.author.id === "416418286184431636") message.reply("You picked the wrong house, **fool!**");
+});
+
+client.on("message", message => {
+  if (message.author.id === "417500499424706560") message.reply("Oh shit, the brakes is out!");
 });
 
 client.on('message', msg => {
